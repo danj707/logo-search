@@ -1,0 +1,113 @@
+/*
+* {
+    border: 1px solid red;
+}
+*/
+
+body {
+    box-sizing: border-box;
+    font-size: Times, serif;
+}
+
+h2 {
+    font-size: Times, serif;
+    font-style: italic;
+    color: firebrick;
+    text-align: center;
+}
+
+.aci_color {
+    background-image: url("../images/aci%20-%20color.png");
+    display: none;
+}
+
+.aci_gray {
+    background-image: url("../images/aci.png");
+}
+
+.afe_color {
+    background-image: url("../images/AFE%20color.png");
+    display: none;
+}
+
+.afe_gray {
+    background-image: url("../images/AFE%20-%20fade.png");
+}
+
+.acm_color {
+    background-image: url("../images/acm%20-%20color.png");
+    display: none;
+}
+
+.acm_gray {
+    background-image: url("../images/acm%20-%20fade%20copy%202.png");
+}
+
+.select {
+    margin: 10px;
+}
+
+#education,
+#program {
+    width: 40%;
+}
+
+.searchbox {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background: lightgray;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.col-1-of-3,
+.col-2-of-3,
+.col-3-of-3 {
+    display: inline-block;
+    width: 30%;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    height: auto;
+}
+
+.logos {
+    width: 50%;
+    margin: auto;
+}
+
+.searchbutton {
+    background-color: firebrick;
+    font-size: 16px;
+    color: white;
+    font-style: bold;
+}
+
+
+/*  30% width at greater than 640 px */
+
+@media only screen and (max-width: 640px) {
+    .col-1-of-3,
+    .col-2-of-3,
+    .col-3-of-3 {
+        width: 30%;
+        display: inline-block;
+    }
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col-1-of-3,
+    .col-2-of-3,
+    .col-3-of-3 {
+        width: 100%;
+        display: block;
+    }
+}
